@@ -1,0 +1,118 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+@media only screen and (min-width:600px) {
+    
+    .Navber  { display: flex;
+        max-height: 80px;
+        margin: 0;
+        background-color: wheat;
+        padding: 20px 30px;
+        
+    z-index: 99;
+    }
+        
+
+        .img5{
+            width: 100%;
+            background-color: transparent;
+            margin-top: 10px;
+            height: 39em;
+        }
+        .flex{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    
+}
+.Navber-img{
+    max-height: 50px;
+}
+@media only screen and (max-width:600px) {
+    
+    .Navber  { display: grid;
+        gap: 0px;
+        max-height: 120px;
+        margin: 0;
+        background-color: white;
+        padding: 10px;
+        z-index: 99;
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+.Navber{
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(20, 10, 30);
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.img5{
+    margin-top: 100px;
+    height: 470px;
+}
+
+.Navber-text{
+    font-family:monospace;
+    color: firebrick;
+    padding-left: 10px;
+}
+.Hero-text{
+    color: grey;
+}
+.Hero{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 10px 30px;
+display: flex;
+flex-direction: column;
+}
+
+.img8{
+    height: 12em;
+    width: 15em;
+    border-radius: 10px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.USA{
+    color: gray;
+}
+
+.from{
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+}
+.ll{
+    padding: 20px;
+    position: relative;
+}
+
+.sold{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 8px;
+    background-color: #fff;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}

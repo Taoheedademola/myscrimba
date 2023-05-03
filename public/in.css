@@ -1,0 +1,69 @@
+
+
+.listed{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+body{
+    margin: 0;
+    background-color: #282d35;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg");
+    background-repeat: no-repeat;
+    background-position-x: 55em;
+}
+.listed > li{
+    padding: 10px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h1{
+    color: #344434;
+    margin-left: .1em;
+}.h3{
+    font-size: 1.3em;
+    margin-left: 43em;
+    color: #233;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    background-color: #DEEBF8;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(20, 20, 10);
+}
+
+.main{
+    font-size: 1.8em;
+    color: white;
+    padding: 57px 70px;
+
+}
+
+.main-text{
+    font-size: 49px;
+    margin: 0;
+    letter-spacing: 0.008em;
+}
+
+.Listed{
+    margin-top: 48px;
+}
+
+.Listed > li{
+   line-height: 2em; 
+     
+}
+
+.Listed >li::marker{
+    color: skyblue;
+    font-size: 1.5em;
+    padding-block: 10px;
+}

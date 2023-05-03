@@ -1,0 +1,81 @@
+.img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 26em;
+    height: 25em;
+}
+
+.my{
+    margin-left: 3.7em;
+}
+
+.h1{
+    font-size: 2.287em;
+    margin-left: 1.2em;
+    margin-top: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+}
+.h5{
+    margin-top: 3px;
+    letter-spacing: 2px;
+    margin-left: 39px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.span{
+    font-size: 16px;
+    margin-left: 49px;
+}
+.abt{
+    padding: 10px;
+}
+
+.btn{
+    padding-top: 12px;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    padding-left: 35px;
+}
+
+.btn1{
+    border-radius: 5px;
+    background-color: #fff;
+    width: 6.2em;
+    padding: .5em;
+    border: none;
+
+}
+.btn2{
+    border-radius: 5px;
+    background-color: #222;
+    width: 6.2em;
+    padding: .5em;
+}
+.div{
+    width: 26em;
+    background-color: #282d35;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.about{
+    color: white;
+    font-family: cursive;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.about-content{
+    color: #fff;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 17px;
+}
+
+
